@@ -1,0 +1,38 @@
+.navbar{
+    display:flex;
+    justify-content:center;
+    background-color: var(--primary-color);
+    padding: 10px;
+    
+}
+
+.navbar a {
+    color: var(--gray-color-dark);
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    text-align: center;
+}
+.navbar a:hover {
+    color: var(--primary-color-dark);
+    background-color: var(--secondary-color-dark);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.navbar a.active {
+    color: var(--primary-color-dark);
+    background-color: var(--gray-color-dark);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar a{
+        margin-top: 5px;
+    }
+    .row {
+        flex-direction: column;
+    }
+}

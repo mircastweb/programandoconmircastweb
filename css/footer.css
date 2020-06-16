@@ -1,0 +1,9 @@
+.footer-back{
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    color: var(--gray-color-dark);
+}

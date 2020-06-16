@@ -1,0 +1,43 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex:70%;
+    background-image: url(/img/triangle-mosaic.png);
+    padding: 20px;
+}
+
+.main h2{
+    text-transform: uppercase;
+    margin-top: 18px;
+    color: var(--primary-color);
+}
+
+.main img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main #more-post{
+    padding: 10px 20px;
+    background-color: var( --primary-color-dark);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--gray-color-dark);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main #more-post:hover{
+    background-color: var( --secondary-color-dark);
+    color: var(---primary-color-dark);
+    
+}
+
+article{
+    margin-bottom: 30px;
+}
+
